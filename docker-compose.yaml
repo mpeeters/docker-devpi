@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  devpi:
+    image: mpeeters/devpi:5.x
+    ports:
+      - "3141:3141"
+    environment:
+      - "DEVPI_PORT=3141"
+      - "DEVPI_PASSWORD=password"
+    volumes:
+      - server-dir:/devpi/server
+      - client-dir:/devpi/client
+volumes:
+  server-dir:
+  client-dir:
