@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   devpi:
-    image: mpeeters/devpi:5.x
+    image: mpeeters/devpi:5-latest
     ports:
       - "3141:3141"
     environment:
