@@ -7,6 +7,7 @@ services:
     environment:
       - "DEVPI_PORT=3141"
       - "DEVPI_PASSWORD=password"
+      - "DEVPI_OUTSIDE_URL=http://localhost:3141"
     volumes:
       - server-dir:/devpi/server
       - client-dir:/devpi/client
