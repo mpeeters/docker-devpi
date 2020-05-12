@@ -16,7 +16,7 @@ if [[ $initialize = yes ]]; then
   devpi-server --init
 fi
 
-devpi-server --start --host 0.0.0.0 --port $DEVPI_PORT
+devpi-server --start --host 0.0.0.0 --port $DEVPI_PORT --outside-url "$DEVPI_OUTSIDE_URL"
 
 DEVPI_LOGS=$DEVPI_SERVERDIR/.xproc/devpi-server/xprocess.log
 

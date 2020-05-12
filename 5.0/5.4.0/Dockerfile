@@ -11,6 +11,7 @@ RUN apk add --no-cache --virtual .build-deps gcc python3-dev libffi-dev musl-dev
 ENV DEVPI_SERVERDIR /devpi/server
 ENV DEVPI_CLIENTDIR /devpi/client
 ENV DEVPI_PORT 3141
+ENV DEVPI_OUTSIDE_URL http://localhost:3141
 
 RUN mkdir -p $DEVPI_SERVERDIR
 RUN mkdir -p $DEVPI_CLIENTDIR
