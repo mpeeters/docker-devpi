@@ -12,11 +12,21 @@ devpi is a PyPI server and packaging/testing/release tool
 - [`5.2.0` (*5.2.0/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.2.0/Dockerfile)
 - [`5.1.0` (*5.1.0/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.1.0/Dockerfile)
 
+# Environment variables
+
+| Variable                  | Description                                           |
+|---------------------------|-------------------------------------------------------|
+| DEVPI_PASSWORD            | Root password                                         |
+| DEVPI_PASSWORD_FILE       | File with root password                               |
+| DEVPI_OUTSIDE_URL         | Outside url                                           |
+| DEVPI_PORT                | Default: ``3141``                                     |
+| DEVPI_SERVERDIR           | Default: ``/devpi/server``                            |
+| DEVPI_CLIENTDIR           | Default: ``/devpi/client``                            |
+
 # Contribute
 
 - Issue Tracker: http://github.com/mpeeters/docker-devpi/issues
 - Source Code: http://github.com/mpeeters/docker-devpi
-
 
 # License
 
