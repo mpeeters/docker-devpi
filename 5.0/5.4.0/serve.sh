@@ -24,7 +24,11 @@ devpi use http://localhost:$DEVPI_PORT
 if [[ $initialize = yes ]]; then
   # Set root password
   devpi login root --password=''
-  devpi user -m root password="${DEVPI_PASSWORD}"
+  if [[ $DEVPI_PASSWORD_FILE ]]; then
+    devpi user -m root password=`cat ${DEVPI_PASSWORD_FILE}`
+  else
+    devpi user -m root password="${DEVPI_PASSWORD}"
+  fi
 fi
 
 tail -f $DEVPI_LOGS &
