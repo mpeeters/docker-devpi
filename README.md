@@ -4,7 +4,9 @@ devpi is a PyPI server and packaging/testing/release tool
 
 ## tags and respective `Dockerfile` links
 
-- [`5.5.0`, `5-latest`, `latest` (*5.5.0/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.5.0/Dockerfile)
+- [`6.0.0`, `6-latest` (*6.0.0/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/6.0/6.0.0/Dockerfile)
+- [`5.5.1`, `5-latest` (*5.5.1/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.5.1/Dockerfile)
+- [`5.5.0` (*5.5.0/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.5.0/Dockerfile)
 - [`5.4.1` (*5.4.1/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.4.1/Dockerfile)
 - [`5.4.0` (*5.4.0/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.4.0/Dockerfile)
 - [`5.3.1` (*5.3.1/Dockerfile*)](https://github.com/mpeeters/docker-devpi/blob/master/5.0/5.3.1/Dockerfile)
